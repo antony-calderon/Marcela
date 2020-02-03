@@ -1,0 +1,72 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-color: black;
+}
+
+
+@font-face   /*importando la fuente que descargamos de google fonts*/
+{
+	font-family: letra;
+	src:url(../fuentes/IndieFlower.ttf);
+}
+@font-face   /*importando la fuente que descargamos de google fonts*/
+{
+	font-family: cursiva;
+	src:url(../fuentes/Calligraffitti-Regular.ttf);
+}
+
+.recuerdos p
+{
+	font-family: letra;
+	font-size: 40px;
+	text-align: left;
+	color: white;
+	
+}
+
+.fotos
+{
+	display: flex;
+	background: linear-gradient(30deg, #F509E0, #FA0532,#F509E0,#F50934 );
+}
+
+.fotos ul
+{
+	margin-top: 100px;
+	/*margin-left: 20px;*/
+	/*margin-right: auto;*/
+	list-style: none;
+}
+
+.fotos ul li a:hover
+{
+	color: white;
+}
+
+.fotos ul li a
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-decoration: none;
+	font-family: cursiva;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+}
+
+.fotos table
+{
+	margin: auto;
+	
+}
+
+.fotos table img
+{
+	width: 150px;
+	height: 150px;
+}

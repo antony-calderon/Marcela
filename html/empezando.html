@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shorcut icon" href="../imagenes/amor.jpg">
+	<link rel="stylesheet" href="../css/empezando.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<title>Al inicio</title>
+</head>
+<body>
+	<header>
+		<section class="barra">
+			
+			<article class="logo">
+				<img src="../imagenes/marce.jpg">
+			</article>
+			<nav>
+				<ul>
+					<li><a href="../index.html">yop</a></li>
+					<li><a href="recuerdos.html">recuerdos</a></li>
+					<li><a href="planes.html">planes</a></li>
+					<li><a href="music.html">music</a></li>
+					<li><a href="series.html">series</a></li>
+					<li><a href="pelis.html">pelis</a></li>
+				</ul>
+			</nav>
+		</section>
+	</header>
+	<br><br><br>
+	<section class="inicio">
+		<h2 class="w3-center">Empezando...</h2>
+		<a href="../index.html">Vuelve al inicio de tu pagina</a>
+	</section>
+	
+
+<section class="imagenes">
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="../imagenes/inicio/1.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/10.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/11.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/12.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/13.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/14.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/15.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/16.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/17.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/18.png" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/2.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/3.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/4.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/5.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/6.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/7.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/8.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/9.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/amor.jpg" style="width:100%">
+  <img class="mySlides" src="../imagenes/inicio/19.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+</section>
+
+
+
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	     x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+</script>
+</body>
+</html>

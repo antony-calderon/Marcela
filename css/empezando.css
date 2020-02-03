@@ -1,0 +1,55 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face   /*importando la fuente que descargamos de google fonts*/
+{
+	font-family: letra;
+	src:url(../fuentes/IndieFlower.ttf);
+}
+
+body
+{
+	background: url(../imagenes/amor.jpg);
+	background-size: cover;
+}
+
+.w3-center
+{
+	margin-top: -10px;
+	margin-left: 20px;
+	font-size: 60px;
+	font-weight: bold;
+	color: #F507A9;
+	font-family: letra;
+}
+
+.imagenes
+{
+	margin-top: -20px;
+	margin-bottom: 50px;
+}
+
+
+
+.inicio
+{
+	display: flex;
+}
+
+.inicio a:hover
+{
+	color: #1FFA05;
+}
+
+.inicio a
+{
+	text-decoration: blink;
+	color: #EE1F07;
+	margin-left: auto;
+	font-size: 40px;
+	font-family: letra;
+	font-weight: bold;
+}

@@ -1,0 +1,68 @@
+.yo p
+{
+	font-family: letra;
+	font-size: 40px;
+	text-align: left;
+	color: white;
+	
+}
+
+
+
+.yopi
+{
+	background: url(../imagenes/mensaje.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+.parrafo_1 
+{
+	display: flex;
+}
+
+.parrafo_1 ul img
+{
+	width: 300px;
+	height: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	border-radius:150px; 
+}
+
+.parrafo_1 p
+{
+	margin-left: 40px;
+	margin-top: 40px;
+	font-family: letra;
+	font-size: 25px;
+	
+}
+
+.parrafo_2
+{
+	display: flex;
+}
+
+.parrafo_2 ul img
+{
+	width: 300px;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 20px;
+	border-radius:150px;
+}
+
+.parrafo_2 p
+{
+	font-family: letra;
+	font-size: 25px;
+	color: white;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+
+

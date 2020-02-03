@@ -1,0 +1,74 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+
+}
+@font-face   /*importando la fuente que descargamos de google fonts*/
+{
+	font-family: letra;
+	src:url(../fuentes/IndieFlower.ttf);
+}
+@font-face   /*importando la fuente que descargamos de google fonts*/
+{
+	font-family: cursiva;
+	src:url(../fuentes/Calligraffitti-Regular.ttf);
+}
+header
+{
+	width: 100%;
+	background: url(imagenes/banner.jfif);
+	background-size: cover;
+	height: 70px;
+	position:fixed;
+	z-index: 1;
+}
+.barra
+{
+	width: 70%;
+	height: 70px;
+	margin: auto;
+}
+.logo
+{
+	width: 30%;
+	height: 60px;
+	float: left;
+	padding-top: 5px;
+}
+nav
+{
+	width: 70%;
+	height: 70px;
+	float: left;
+	text-align: right;
+	padding-top: 20px;
+}
+nav ul li    
+{
+	display: inline;
+}
+
+nav ul li a
+{
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-family: letra;
+}
+
+nav ul li a:hover
+{
+	color: #F31DBF;
+}
+
+.logo img
+{
+	width: 70px;
+	height: 60px;
+	border-radius: 20px;
+}
